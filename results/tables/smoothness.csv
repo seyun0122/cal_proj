@@ -1,0 +1,7 @@
+name,max_second_deriv_numerical,variance_uniform_grid,discrete_total_variation,roughness_class,classification_rule,note
+sin,0.999999980070442,0.0947463249913821,1.9999999753210536,smooth,"smooth: max_d2<10 and TV<5, moderate: max_d2<100 and TV<20, otherwise rough",불연속 함수의 max_second_deriv_numerical은 실제 도함수가 아니라 중앙차분 폭발을 나타내는 지표이다.
+sin10x,99.99997820392277,0.4837418593996548,9.999998889447445,moderate,"smooth: max_d2<10 and TV<5, moderate: max_d2<100 and TV<20, otherwise rough",불연속 함수의 max_second_deriv_numerical은 실제 도함수가 아니라 중앙차분 폭발을 나타내는 지표이다.
+gaussian_peak,199.999749942441,0.09390923692552294,1.9999994998722714,rough,"smooth: max_d2<10 and TV<5, moderate: max_d2<100 and TV<20, otherwise rough",불연속 함수의 max_second_deriv_numerical은 실제 도함수가 아니라 중앙차분 폭발을 나타내는 지표이다.
+runge,49.999874973156814,0.08111912657542865,1.923076422977033,moderate,"smooth: max_d2<10 and TV<5, moderate: max_d2<100 and TV<20, otherwise rough",불연속 함수의 max_second_deriv_numerical은 실제 도함수가 아니라 중앙차분 폭발을 나타내는 지표이다.
+step,99980001.0,0.25,1.0,rough,"smooth: max_d2<10 and TV<5, moderate: max_d2<100 and TV<20, otherwise rough",불연속 함수의 max_second_deriv_numerical은 실제 도함수가 아니라 중앙차분 폭발을 나타내는 지표이다.
+steep_sigmoid,615.836988809902,0.22060462983100215,0.9999999999998604,rough,"smooth: max_d2<10 and TV<5, moderate: max_d2<100 and TV<20, otherwise rough",불연속 함수의 max_second_deriv_numerical은 실제 도함수가 아니라 중앙차분 폭발을 나타내는 지표이다.
